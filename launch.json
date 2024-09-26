@@ -8,9 +8,9 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open task.html",
-            "file": "C:\\Users\\Andri\\.vscode\\Quiz\\Quiz\\Spin\\task.html",
+            /*"file": "c:\\Users\\Andri\\.vscode\\Quiz\\Quiz\\Spin\\task.html",*/
             "url": "https://andre309.github.io/Spin/",
-            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            "runtimeExecutable": "c:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         }
     ]
 }
