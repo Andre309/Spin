@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\Users\\Andri\\.vscode\\Quiz\\Spin\\index.html",
-            "url": "https://andre309.github.io/Spin/",
+            "url": "https://SpinAndPlay.io/Spin/",
             "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         }
     ]
