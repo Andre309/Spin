@@ -145,8 +145,8 @@ document.addEventListener("DOMContentLoaded", function() {
             changeCategoryColor(buttons[randomIndex]); // Змінюємо колір тексту
         }
 
-        // Якщо кнопка, на якій зупинилось підсвічування, це "Не смішно"
-        if (buttons[randomIndex].textContent === "Не смішно") {
+        // Якщо кнопка, на якій зупинилось підсвічування, це "Імпровізація"
+        if (buttons[randomIndex].textContent === "Імпровізація") {
             generateTask3(); // Викликаємо функцію для генерації завдання "Не смішно"
             changeCategoryColor(buttons[randomIndex]); // Змінюємо колір тексту
         }
