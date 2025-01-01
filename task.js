@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         // Якщо кнопка, на якій зупинилось підсвічування, це "Імпровізація"
-        if (buttons[randomIndex].textContent === "Імпровізація") {
+        if (buttons[randomIndex].textContent === "Імпрув") {
             generateTask3(); // Викликаємо функцію для генерації завдання "Імпровізація"
             changeCategoryColor(buttons[randomIndex]); // Змінюємо колір тексту
         }
