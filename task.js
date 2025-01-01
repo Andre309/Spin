@@ -1,6 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.querySelectorAll(".button:not(.circle)");
     const spinButton = document.querySelector(".circle");
+    const actEmotion1 = document.getElementById('actEmotion');
+    // Додати обробник події "click"
+    actEmotion1.addEventListener('click', () => {
+        const randomEmotions = emotions[Math.floor(Math.random() * emotions.length)]; // Випадковий вибір звуку
+        const randomEmotions2 = emotions2[Math.floor(Math.random() * emotions2.length)]; // Випадковий вибір звуку
+        const taskElement1 = document.getElementById("task1"); // Де виводимо завдання з звуками
+        taskElement1.innerHTML = `${randomEmotions} <span style="color: blue;">${randomEmotions2}</span>`; // Виведення завдання на екран;
+});
+
     let currentIndex = 0;
     let interval;
 
